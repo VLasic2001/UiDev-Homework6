@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 25px 15px 0 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+}
+.logo{
+    display: none;
+}
+.instagram{
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_core_2x_6ba81dcece9b.png/6ba81dcece9b.png");
+    height: 30px;
+    width: 115px;
+    background-size: 270px 227px;
+    background-position: 20px -55px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 20px;
+    margin-left: 10px;
+    border-left: 1px solid grey;
+    float: left;
+}
+.trazi{
+    display: none;
+}
+.prijavi-se{
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    float: right;
+}
+.registrirajte-se{
+    background-color: transparent;
+    color: #3897f0;
+    border: none;
+    font-weight: 700;
+    float: right;
+}
+main{
+    position: relative;
+}
+.profile-info{
+    margin: 40px 0;
+}
+.profile-picture{
+    border-radius: 100%;
+    transform: scale(0.6);
+    margin-top: -30px;
+    margin-left: -10px;
+    float: left;
+}
+.profile-name-and-follow-768{    
+    display: none;
+}
+.profile-name{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.prati{    
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    width: max-content;
+}
+.profile-text{
+    margin: 0 20px 25px;
+    float: left;
+}
+.profile-text--bold{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-text--normal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 2px;
+    line-height: 1.3;
+}
+.profile-text--link{
+    text-decoration: none;
+    color: rgb(0, 0, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.statistics{
+    padding: 10px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.233);
+    display: block;
+}
+.statistics-768{
+    display: none;
+}
+.statistics--text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+    margin: 0 25px;
+}
+.bolder{
+    font-weight: 700;
+}
+.icons{
+    border-top: 1px solid rgba(128, 128, 128, 0.233);
+    padding: 10px 0 10px;
+    display: block;
+    float: left;
+}
+.objave{
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -221px -124px;
+    background-size: 270px 227px;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-left: 90px;
+}
+.oznaceni{
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -198px -202px;
+    background-size: 270px 227px;
+    height: 26px;
+    width: 25px;
+    float: left;
+    margin-left: 150px;
+}
+.pictures{
+    margin-bottom: -0.5%;
+    float: left;
+}
+.pictures__picture{
+    width: 33%;
+    height: 32%;
+    margin-bottom: 0.3%;
+    float: left;
+    margin-right: 0.3%;
+}
+.warning{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -565px;
+    background-color: rgba(24, 24, 24, 0.801);
+    height: 100px;  
+    white-space: nowrap;
+    overflow: hidden;
+}
+.warning__wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -259px -185px;
+    background-size: 270px 227px;
+    height: 10px;
+    width: 10px;
+    transform: scale(1.3)
+}
+.warning__text{
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    color: white;
+}
+.white-logo{
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -73px 0;
+    background-size: 270px 227px;
+    height: 57px;
+    width: 57px;
+    margin: 20px 15px 0;
+}
+.warning__buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 25px;
+}
+.warning__prijavi-se{
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 10px 0;
+}
+.warning__registrirajte-se{
+    background-color: transparent;
+    color: #3897f0;
+    border: none;
+    font-weight: 700;
+}
+.profile-text>.profile-picture{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .logo{
+        display: inline-block;
+        background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+        background-repeat: no-repeat;
+        background-position: -125px -128px;
+        background-size: 270px 227px;
+        height: 25px;
+        width: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+    }
+    .profile-text>.profile-picture{
+        display: inline-block;
+    }
+    .profile{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .profile-name{
+        display: inline;
+    }
+    .statistics{
+        display: none;
+    }
+    .statistics-768{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .statistics--text{
+        margin-right: 40px;
+    }
+    .profile-name-and-follow-768{
+        display: block;
+        margin-left: 165px;
+        margin-bottom: 20px;
+    }
+    .profile-info{
+        display: none;
+    }
+    .prati{
+        margin-left: 20px;
+        margin-top: -5px;
+        align-content: center;
+    }
+    .profile-text--bio{
+        margin-top: 60px;
+        margin-left: 165px;
+    }
+    .trazi{
+        display: block;
+        position: relative;
+        float: left;
+        width: 160px;
+        border: 1px solid grey;
+        border-radius: 4px;
+        padding-top: 4px;
+        margin-left: 100px;
+    }
+    .trazi__text{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+    .povecalo{
+        display: inline-block;
+        background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+        background-repeat: no-repeat;
+        background-position: -259px -172px;
+        background-size: 270px 227px;
+        height: 12px;
+        width: 12px;
+        margin-top: 4px;
+        margin-left: 50px;
+    }
+    .icons{
+        transform: scale(0.7)
+    }
+    .objave{
+        background-position: -221px -150px;
+        margin: 0 50px 0 260px;
+    }
+    .objave::after{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+        content: "OBJAVE";
+        font-size: 20px;
+        color: grey;
+    }
+    .oznaceni::after{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+        content: "OZNAČENI";
+        font-size: 20px;
+        color: grey;
+    }
+    .warning{
+        bottom: -1010px;
+    }
+    .pictures__picture{
+        width: 30%;
+        margin: 1.6%;
+    }
+}
+@media screen and (min-width: 1024px){
+.trazi{
+    width: 230px;
+    margin-left: 200px;
+}
+.povecalo{
+    margin-left: 80px;
+}
+.profile-picture{
+    transform: scale(1);
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.profile{
+    margin-top: 70px;
+}
+.profile-text{
+    margin-right: 180px;
+}
+.statistics-768{
+    position: relative;
+    left: -25px;
+}
+.icons{
+    margin-left: 115px
+}
+.warning{
+    bottom: -1265px;
+}
+}
+@media screen and (min-width: 1440px){
+header{
+    padding: 0 200px 20px;
+}
+.profile{
+    padding-left: 200px;
+    padding-right: 280px;
+}
+.pictures{
+    padding-left: 200px;
+    padding-right: 280px;
+}
+.icons{
+    margin-left: 290px;
+}
+}
