@@ -1,6 +1,12 @@
 body{
     margin: 0;
 }
+.-m-l{
+    margin-left: -80px;
+}
+.m-l{
+    margin-left: 50px;
+}
 .header{
     margin: 25px 15px 0 10px;
     padding-bottom: 35px;
@@ -8,6 +14,9 @@ body{
 }
 .logo{
     display: none;
+}
+.logos{
+    width: 30%;
 }
 .instagram{
     background-image: url("https://www.instagram.com/static/bundles/metro/sprite_core_2x_6ba81dcece9b.png/6ba81dcece9b.png");
@@ -18,9 +27,8 @@ body{
     background-repeat: no-repeat;
     display: block;
     padding-left: 20px;
-    margin-left: 10px;
+    margin-right: 20px;
     border-left: 1px solid grey;
-    float: left;
 }
 .trazi{
     display: none;
@@ -31,12 +39,206 @@ body{
     border: none;
     border-radius: 4px;
     font-weight: 700;
-    float: right;
 }
 .registrirajte-se{
     background-color: transparent;
     color: #3897f0;
     border: none;
     font-weight: 700;
-    float: right;
+}
+main{
+    position: relative;
+}
+.profile-info{
+    margin: 40px 0;
+}
+.profile-picture{
+    border-radius: 100%;
+    margin-left: 20px;
+    transform: scale(0.7);
+    position: relative;
+    top: -40px;
+    left: -25px;
+}
+.profile-name-and-follow{    
+    transform: scale(1.5);
+    position: relative;
+    top: -40px;
+    left: -10px;
+}
+.profile-name-and-follow-768{    
+    display: none;
+}
+.profile-name{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.prati{    
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    width: max-content;
+}
+.profile-text{
+    margin: 80px 80px 25px 100px;
+    transform: scale(1.4);
+}
+.profile-text--bold{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-text--normal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 2px;
+    line-height: 1.3;
+}
+.profile-text--link{
+    text-decoration: none;
+    color: rgb(0, 0, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.profile-picture-768{
+    display: none;
+}
+.statistics{
+    padding: 10px 25px;
+    border-top: 1px solid rgba(128, 128, 128, 0.233);
+}
+.statistics-768{
+    display: none;
+}
+.statistics--text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    lefT: -40px;
+}
+.statistics--text:nth-child(2){
+    lefT: -80px;
+}
+.bolder{
+    font-weight: 700;
+}
+.profile-text--bio{
+    width: 100%;
+}
+.icons{
+    border-top: 1px solid rgba(128, 128, 128, 0.233);
+    padding: 10px 0 10px 65px;
+    transform: scale(1.5);
+}
+.objave{
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -221px -124px;
+    background-size: 270px 227px;
+    height: 25px;
+    width: 25px;
+    margin-left: 90px;
+    display: block;
+}
+.oznaceni{
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -198px -202px;
+    background-size: 270px 227px;
+    height: 26px;
+    width: 25px;
+    margin-left: 30px;
+    display: block;
+}
+.pictures{
+    margin-bottom: -0.5%;
+    width: 100%;
+    vertical-align: top;
+    table-layout:fixed;
+}
+.pictures__picture{
+    width: 100%;
+    margin-bottom: 0.3%;
+}
+.warning{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -195px;
+    background-color: rgba(24, 24, 24, 0.801);
+    height: 100px;  
+    white-space: nowrap;
+    overflow: hidden;
+}
+.warning__wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -259px -185px;
+    background-size: 270px 227px;
+    height: 10px;
+    width: 10px;
+    transform: scale(1.3)
+}
+.warning__text{
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    color: white;
+}
+.white-logo{
+    background-image: url("https://www.instagram.com/static/bundles/metro/sprite_glyphs_2x_cf710d56b237.png/cf710d56b237.png");
+    background-repeat: no-repeat;
+    background-position: -73px 0;
+    background-size: 270px 227px;
+    height: 57px;
+    width: 57px;
+    margin: 20px 15px 0;
+}
+.warning__buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 25px;
+}
+.warning__prijavi-se{
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 10px 0;
+}
+.warning__registrirajte-se{
+    background-color: transparent;
+    color: #3897f0;
+    border: none;
+    font-weight: 700;
+}
+@media screen and (min-width: 768px){
+    .warning{
+        bottom: -1300px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .warning{
+        bottom: -2050px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .warning{
+        bottom: -3300px;
+    }
 }
